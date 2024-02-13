@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 1px solid black;
+  width: 60%;
+  margin: 30px auto;
+  min-height: fit-content;
+  border-radius: 25px;
+}
+
+h2 {
+  padding: 10px;
+  letter-spacing: 3px;
+  font-size: 1.8em;
+  margin: 10px;
+}
+
+.weightArea {
+  width: 70%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.heightArea {
+  width: 70%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+input {
+  width: 200px;
+}
+
+label {
+  width: 100px;
+}
+
+.results {
+  height: 10vh;
+  font-size: 3em;
+  font-weight: 700;
+}
